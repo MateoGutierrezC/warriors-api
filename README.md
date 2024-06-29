@@ -1,6 +1,6 @@
 # Guerreros API 
 
-## clonar el repositorio
+## Clonar el repositorio
 ## Tener node instalado
 ## Ir al directorio de warriors-api
 
