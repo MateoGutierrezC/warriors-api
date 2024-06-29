@@ -5,5 +5,5 @@
 ## Ir al directorio de warriors-api
 
 ```bash
-npm index.js
+node index.js
 ```
