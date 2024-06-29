@@ -1,0 +1,130 @@
+https://league-of-legends-champions.onrender.com/App/Champions
+
+const warriors = {
+    "warriors": [
+        {
+            "id": "1",
+            "champion": "Ahri",
+            "date": "14 de diciembre de 2011",
+            "splash_art": "https://prod.api.assets.riotgames.com/public/v1/asset/lol/13.15.1/CHAMPION_SKIN/103042/SPLASH",
+            "origen": "Jonia",
+            "resource": "Mana",
+            "position": [
+                {
+                    "rol": "Mid laner",
+                    "type": "Mago",
+                    "id": "63f3ffb04e41205a5af0577c"
+                }
+            ],
+            "habilities": [
+                {
+                    "pasive": [
+                        {
+                            "abilityIcon": "https://static.wikia.nocookie.net/leagueoflegends/images/4/4f/Ahri_-_Pasiva.png/revision/latest/scale-to-width-down/50?cb=20220904214455&path-prefix=es",
+                            "title": "Ladrona de Esencias",
+                            "description": "Ahri se cura tras matar 9 súbditos o monstruos. Se cura un mayor porcentaje tras participar en el asesinato de un campeón enemigo.",
+                            "id": "63f3ffb04e41205a5af0577e"
+                        }
+                    ],
+                    "q": [
+                        {
+                            "abilityIcon": "https://static.wikia.nocookie.net/leagueoflegends/images/b/bd/Ahri_-_Q.png/revision/latest/scale-to-width-down/50?cb=20220904214552&path-prefix=es",
+                            "title": "Orbe del Engaño",
+                            "description": "Ahri lanza y recupera su orbe, lo que inflige daño mágico de ida y daño verdadero de vuelta.",
+                            "id": "63f3ffb04e41205a5af0577f"
+                        }
+                    ],
+                    "w": [
+                        {
+                            "abilityIcon": "https://static.wikia.nocookie.net/leagueoflegends/images/7/7e/Ahri_-_W.png/revision/latest/scale-to-wth-down/50?cb=20220904214618&path-prefix=es",
+                            "title": "Fuego Zorruno",
+                            "description": "Ahri obtiene un breve aumento de velocidad de movimiento y lanza tres llamas en total que siguen a los enemigos más cercanos para infligirles daño mágico.",
+                            "id": "63f3ffb04e41205a5af05780"
+                        }
+                    ],
+                    "e": [
+                        {
+                            "abilityIcon": "https://static.wikia.nocookie.net/leagueoflegends/images/e/e0/Ahri_-_E.png/revision/latest/scale-to-width-down/50?cb=20220904214441&path-prefix=es",
+                            "title": "Encanto",
+                            "description": "Ahri lanza un beso que inflige daño mágico y encanta al enemigo que alcance, lo que detiene las habilidades de movimiento al instante y causa que camine inofensivamente hacia ella.",
+                            "id": "63f3ffb04e41205a5af05781"
+                        }
+                    ],
+                    "r": [
+                        {
+                            "abilityIcon": "https://static.wikia.nocookie.net/leagueoflegends/images/7/75/Ahri_-_R.png/revision/latest/scale-to-width-down/50?cb=20220904214604&path-prefix=es",
+                            "title": "Impulso Espiritual",
+                            "description": "Ahri se desplaza y dispara rayos de esencia que infligen daño mágico a enemigos cercanos. Esta habilidad puede lanzarse tres veces antes de entrar en enfriamiento y obtiene desplazamientos adicionales al participar en asesinatos de campeones enemigos.",
+                            "id": "63f3ffb04e41205a5af05782"
+                        }
+                    ],
+                    "id": "63f3ffb04e41205a5af0577d"
+                }
+            ],
+            "createdAt": "2023-02-20T23:18:08.797Z",
+            "updatedAt": "2023-02-20T23:18:08.797Z"
+        },
+        {
+            "id": "2",
+            "champion": "Aatrox",
+            "date": "13 de junio de 2013",
+            "splash_art": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_7.jpg",
+            "origen": "Runaterra",
+            "resource": "ninguno",
+            "position": [
+                {
+                    "rol": "Top laner",
+                    "type": "Luchador",
+                    "id": "63f3ffd64e41205a5af05785"
+                }
+            ],
+            "habilities": [
+                {
+                    "pasive": [
+                        {
+                            "abilityIcon": "https://static.wikia.nocookie.net/leagueoflegends/images/c/c6/Aatrox_-_Pasiva.png/revision/latest/scale-to-width-down/50?cb=20220904214357&path-prefix=es",
+                            "title": "Heraldo de la Destrucción",
+                            "description": "Cada cierto tiempo, el siguiente ataque básico de Aatrox inflige daño físico adicional según la vida máxima del objetivo y lo cura una cantidad del daño adicional infligido.",
+                            "id": "63f3ffd64e41205a5af05787"
+                        }
+                    ],
+                    "q": [
+                        {
+                            "abilityIcon": "https://static.wikia.nocookie.net/leagueoflegends/images/b/b5/Aatrox_-_Q.png/revision/latest/scale-to-width-down/50?cb=20220904214404&path-prefix=es",
+                            "title": "La Espada Darkin",
+                            "description": "Aatrox golpea el piso con su espada e inflige daño físico. Puede atacar con ella tres veces, cada vez con un área de efecto distinta. En cada área hay un borde en el que si se encuentra un enemigo en esa zona, Aatrox le inflige mucho más daño físico.",
+                            "id": "63f3ffd64e41205a5af05788"
+                        }
+                    ],
+                    "w": [
+                        {
+                            "abilityIcon": "https://static.wikia.nocookie.net/leagueoflegends/images/3/34/Aatrox_-_W.png/revision/latest/scale-to-width-down/50?cb=20220904214422&path-prefix=es",
+                            "title": "Aatrox lanza una cadena que inflige daño físico y ralentiza al primer enemigo alcanzado. La cadena creará una zona en la que si el enemigo no escapa de ella en los próximos segundos, será arrastrado al centro del área y se le infligirá daño físico.",
+                            "description": "Cadenas Infernales",
+                            "id": "63f3ffd64e41205a5af05789"
+                        }
+                    ],
+                    "e": [
+                        {
+                            "abilityIcon": "https://static.wikia.nocookie.net/leagueoflegends/images/9/97/Aatrox_-_E.png/revision/latest/scale-to-width-down/50?cb=20220904214350&path-prefix=es",
+                            "title": "Impulso Siniestro",
+                            "description": "De forma pasiva, Aatrox se cura un porcentaje del daño que inflige a campeones. Al utilizar esta habilidad, Aatrox se desplaza en la dirección seleccionada.",
+                            "id": "63f3ffd64e41205a5af0578a"
+                        }
+                    ],
+                    "r": [
+                        {
+                            "abilityIcon": "https://static.wikia.nocookie.net/leagueoflegends/images/e/e8/Aatrox_-_R.png/revision/latest/scale-to-width-down/50?cb=20220904214412&path-prefix=es",
+                            "title": "Destructor de Mundos",
+                            "description": "Aatrox revela su verdadera forma donde aterroriza a los súbditos enemigos cercanos y obtiene daño de ataque, curación aumentada y velocidadde movimiento. Si participa en un asesinato, la duración de la habilidad se extiende.",
+                            "id": "63f3ffd64e41205a5af0578b"
+                        }
+                    ],
+                    "id": "63f3ffd64e41205a5af05786"
+                }
+            ],
+            "createdAt": "2023-02-20T23:18:47.002Z",
+            "updatedAt": "2023-02-20T23:18:47.002Z"
+        },
+    ]
+    }
